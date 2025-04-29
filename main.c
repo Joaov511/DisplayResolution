@@ -12,7 +12,6 @@ int main() {
     LONG result = ChangeDisplaySettings(&dm, CDS_UPDATEREGISTRY | CDS_GLOBAL);
 
     if(result == DISP_CHANGE_SUCCESSFUL) {
-
         if (result == DISP_CHANGE_SUCCESSFUL) {
             printf("Resolution changed successfully to %d x %d\n", dm.dmPelsWidth, dm.dmPelsHeight);
         } else {
